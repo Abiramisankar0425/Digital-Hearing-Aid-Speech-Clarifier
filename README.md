@@ -13,7 +13,7 @@ Background noise and overlapping conversations can mask important speech sounds,
 A Random Forest classifier estimates speech/noise activity from audio features. These estimates guide an STFT-based noise-suppression stage. Loudness leveling is used to reduce variations in output volume. An optional SepFormer-based module can be explored for separating overlapping speech sources.
 
 The effectiveness of the system depends on the input audio, trained model, and processing settings. The results below are measurements from one reported test, not proof of clinical effectiveness or improved intelligibility.
-
+![Project Workflow](block.png)
 ## Objectives
 
 - Develop a machine-learning-assisted DSP pipeline for speech enhancement.
